@@ -8,12 +8,6 @@ The annealing Hamiltonian interpolates between a transverse-field driver $H_0 = 
 
 $$H(\lambda) = (1 - \lambda) H_0 + \lambda H_p, \quad \lambda \in [0, 1]$$ 
 
-The CD term $H_\text{CD} = \alpha_1(\lambda) \cdot \mathcal{A}_\lambda^{(1)}$ is derived from the adiabatic gauge potential truncated at first order in the nested commutator expansion, with the coefficient $\alpha_1(\lambda)$ computed analytically via the variational minimization condition:
-
-$$\alpha_1(\lambda) = -\frac{\frac{1}{4}\sum_{i<j} J_{ij}^2}{(1-\lambda)^2 \cdot 4\sum_{i<j} J_{ij}^2 + \lambda^2 \left(\sum_{i<j} J_{ij}^4 + 6\sum_{\text{triplets}} \Pi_{ijk}\right)}$$
-
-where $\Pi_{ijk}$ denotes the symmetrized pairwise coupling products over 3-body interaction triplets.
-
 ---
 
 ## Architecture
