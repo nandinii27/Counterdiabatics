@@ -6,7 +6,7 @@ This notebook implements a **Digital-Analog Quantum Computing (DAQC)** protocol 
 
 The annealing Hamiltonian interpolates between a transverse-field driver $H_0 = \sum_i \sigma_i^z$ and a problem Hamiltonian $H_p = \sum_{i<j} J_{ij} \sigma_i^x \sigma_j^x$:
 
-$$H(\lambda) = (1 - \lambda) H_0 + \lambda H_p, \quad \lambda \in [0, 1]$$
+$$H(\lambda) = (1 - \lambda) H_0 + \lambda H_p, \quad \lambda \in [0, 1]$$ 
 
 The CD term $H_\text{CD} = \alpha_1(\lambda) \cdot \mathcal{A}_\lambda^{(1)}$ is derived from the adiabatic gauge potential truncated at first order in the nested commutator expansion, with the coefficient $\alpha_1(\lambda)$ computed analytically via the variational minimization condition:
 
